@@ -11,7 +11,7 @@ For licenses we use, see https://github.com/CMihai99/eureka/tree/main/LICENSES.
 
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/eureka)](https://github.com/CMihai99/eureka/issues?q=is%3Aissue+is%3Aopen)
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/eureka)](https://github.com/CMihai99/eureka/issues?q=is%3Aissue+is%3Aclosed)
-[![Codacy](https://img.shields.io/codacy/grade/)](https://app.codacy.com/gh/CMihai99/eureka/dashboard)
+[![Codacy](https://img.shields.io/codacy/grade/1c465ea636c44e36b0c4a65d03d51d92)](https://app.codacy.com/gh/CMihai99/eureka/dashboard)
 
 Eureka is a multi-purpose Discord bot.
 
