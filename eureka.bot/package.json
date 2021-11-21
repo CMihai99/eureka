@@ -1,0 +1,18 @@
+{
+  "name": "@cmihai99/eureka",
+  "version": "1.0.0",
+  "description": "Eureka is a multi-purpose Discord bot.",
+  "author": {
+    "name": "Eureka"
+  },
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMihai99/eureka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CMihai99/eureka/issues"
+  },
+  "homepage": "https://github.com/CMihai99/eureka"
+}
