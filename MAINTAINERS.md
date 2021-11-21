@@ -24,7 +24,7 @@ Do not add any entries after EVERYTHING ELSE. That will be at the end of this fi
     In particular, check that changes are both responsive and functional.
 
 3.  When you are happy with a change, make it generally available for testing and await feedback.
-fyndro
+
 4.  Make a patch available to the relevant maintainer in the list. Use `diff -u`
     to make the patch easy to merge. Be prepared to get your changes sent back with
     seemingly silly requests about formatting and naming. These aren't as silly
