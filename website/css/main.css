@@ -1,0 +1,70 @@
+:root {
+  --background: #2c2f33;
+  --divider: #dbdbdb;
+  --text: #5c5c5c;
+  --body-background: #2c2f33;
+  --links: #337ff0;
+  --borders: #858585;
+  --border-radius: 10px;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-background);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  color: #707070;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+}
+
+.links {
+  color: var(--links);
+  text-decoration: none;
+}
+.links:hover, .links:active, .links:focus {
+  color: #3277df;
+}
+.links:visited {
+  color: #145dca;
+}
+
+.page-border {
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 125px;
+  margin-left: 125px;
+}
+
+.content-border {
+  padding: 100px;
+}
+
+.page-title {
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}
+
+/*# sourceMappingURL=main.css.map */

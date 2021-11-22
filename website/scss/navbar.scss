@@ -1,0 +1,60 @@
+// ===-----------------------------------------------------------------------------------===
+// Copyright (c) 2021 Calinescu Mihai
+//
+// For copying notice, see https://github.com/CMihai99/eureka/blob/main/COPYING.
+// For licenses we use, see https://github.com/CMihai99/eureka/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===
+
+:root {
+  --background: #2c2f33;
+  --light-gray: #cccccc;
+  --gray: #aaaaaa;
+}
+
+.navbar {
+  background-color: var(--background);
+  height: 100px;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 25px;
+  padding-left: 40px;
+}
+
+.nav-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-item {
+  color: var(--gray);
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 13px;
+
+  a {
+    color: var(--gray);
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: var(--light-gray);
+    text-decoration: none;
+  }
+
+  img {
+    padding-bottom: 7px;
+  }
+}
+
+// Phones
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+
+// Tablets
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}

@@ -1,0 +1,46 @@
+:root {
+  --background: #232629;
+  --text: #fafafa;
+  --light-gray: #cccccc;
+  --gray: #aaaaaa;
+}
+
+footer {
+  background-color: var(--background);
+  display: flex;
+  padding-left: 18.125rem;
+}
+
+.section {
+  padding: 15px 50px 25px;
+}
+.section h3 {
+  color: var(--text);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.section ul {
+  padding: 0;
+}
+.section ul li {
+  list-style-type: none;
+  color: var(--text);
+}
+.section ul li a {
+  color: var(--light-gray);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+.section ul li a:hover {
+  color: var(--gray);
+}
+
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}
+
+/*# sourceMappingURL=footer.css.map */
