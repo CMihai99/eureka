@@ -6,13 +6,12 @@
 // ===-----------------------------------------------------------------------------------===
 
 :root {
-  --background: #2c2f33;
   --light-gray: #cccccc;
   --gray: #aaaaaa;
 }
 
-.navbar {
-  background-color: var(--background);
+nav {
+  background-color: #2c2f33;
   height: 100px;
   width: 100%;
   border: 0;
@@ -37,6 +36,7 @@
     text-decoration: none;
     font-size: 17px;
     transition: color 0.2s;
+    font-family: Verdana, sans-serif;
   }
 
   a:hover {
@@ -45,7 +45,7 @@
   }
 
   img {
-    padding-bottom: 7px;
+    padding-bottom: 6px;
   }
 }
 

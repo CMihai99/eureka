@@ -4,8 +4,8 @@
   --gray: #aaaaaa;
 }
 
-.navbar {
-  background-color: var(--background);
+nav {
+  background-color: #2c2f33;
   height: 100px;
   width: 100%;
   border: 0;
@@ -30,13 +30,14 @@
   text-decoration: none;
   font-size: 17px;
   transition: color 0.2s;
+  font-family: Verdana, sans-serif;
 }
 .nav-item a:hover {
   color: var(--light-gray);
   text-decoration: none;
 }
 .nav-item img {
-  padding-bottom: 7px;
+  padding-bottom: 6px;
 }
 
 @media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {

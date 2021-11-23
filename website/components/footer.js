@@ -12,6 +12,13 @@ class footer extends HTMLElement {
     this.innerHTML =
     `
     <footer>
+      <div class="title-section">
+        <h2>Eureka</h2>
+        <p>The best free multi-purpose Discord bot.</p>
+        <p>© 2021 Eureka Limited</p>
+        <p>by Calinescu Mihai</p>
+      </div>
+
       <div class="section">
         <h3>Eureka</h3>
 

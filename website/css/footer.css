@@ -1,39 +1,71 @@
 :root {
   --background: #232629;
   --text: #fafafa;
-  --light-gray: #cccccc;
+  --light-gray: #c5c5c5;
   --gray: #aaaaaa;
 }
 
 footer {
   background-color: var(--background);
   display: flex;
-  padding-left: 18.125rem;
+  padding: 30px;
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
-.section {
-  padding: 15px 50px 25px;
+.section,
+.title-section {
+  padding: 0 15px;
+  width: 175px;
 }
-.section h3 {
+.section h3,
+.title-section h3 {
   color: var(--text);
   font-size: 16px;
   margin-bottom: 8px;
+  margin-top: 5px;
+  font-family: Verdana, sans-serif;
 }
-.section ul {
+.section h2,
+.title-section h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: Verdana, sans-serif;
+}
+.section p,
+.title-section p {
+  color: var(--text);
+  font-size: 15px;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.section ul,
+.title-section ul {
   padding: 0;
 }
-.section ul li {
+.section ul li,
+.title-section ul li {
   list-style-type: none;
   color: var(--text);
 }
-.section ul li a {
+.section ul li a,
+.title-section ul li a {
   color: var(--light-gray);
   text-decoration: none;
   font-size: 14px;
   transition: color 0.2s;
 }
-.section ul li a:hover {
+.section ul li a:hover,
+.title-section ul li a:hover {
   color: var(--gray);
+}
+
+.title-section {
+  width: 750px;
+  padding-left: 150px;
+  padding-right: 125px;
 }
 
 @media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {

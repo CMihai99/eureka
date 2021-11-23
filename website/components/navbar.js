@@ -18,7 +18,7 @@ class navbar extends HTMLElement {
 
       <div class="nav navbar-nav">
         <li>
-          <div class="nav-item" data-toggle="dropdown">
+          <div class="nav-item">
             <a href="/website/html/commands.html">
               <img src="/website/resources/commands.svg">
               Commands
@@ -27,7 +27,7 @@ class navbar extends HTMLElement {
         </li>
 
         <li>
-          <div class="nav-item" data-toggle="dropdown">
+          <div class="nav-item">
             <a href="/website/html/docs.html">
               <img src="/website/resources/documentation.svg">
               Documentation
@@ -36,7 +36,7 @@ class navbar extends HTMLElement {
         </li>
 
         <li>
-          <div class="nav-item" data-toggle="dropdown">
+          <div class="nav-item">
             <a href="/website/html/support.html">
               <img src="/website/resources/discord.svg">
               Community Server

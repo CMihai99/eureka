@@ -8,23 +8,44 @@
 :root {
   --background: #232629;
   --text: #fafafa;
-  --light-gray: #cccccc;
+  --light-gray: #c5c5c5;
   --gray: #aaaaaa;
 }
 
 footer {
   background-color: var(--background);
   display: flex;
-  padding-left: 18.125rem;
+  padding: 30px;
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
-.section {
-  padding: 15px 50px 25px;
+.section,
+.title-section {
+  padding: 0 15px;
+  width: 175px;
 
   h3 {
     color: var(--text);
     font-size: 16px;
     margin-bottom: 8px;
+    margin-top: 5px;
+    font-family: Verdana, sans-serif;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana, sans-serif;
+  }
+
+  p {
+    color: var(--text);
+    font-size: 15px;
+    margin: 0;
+    font-family: Verdana, sans-serif;
   }
 
   ul {
@@ -46,6 +67,12 @@ footer {
       }
     }
   }
+}
+
+.title-section {
+  width: 750px;
+  padding-left: 150px;
+  padding-right: 125px;
 }
 
 // Phones
