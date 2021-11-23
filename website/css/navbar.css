@@ -1,5 +1,4 @@
 :root {
-  --background: #2c2f33;
   --light-gray: #cccccc;
   --gray: #aaaaaa;
 }
@@ -10,8 +9,7 @@ nav {
   width: 100%;
   border: 0;
   margin: 0;
-  padding: 25px;
-  padding-left: 40px;
+  padding: 25px 25px 25px 40px;
 }
 
 .nav-icon {
@@ -20,21 +18,18 @@ nav {
 }
 
 .nav-item {
-  color: var(--gray);
   cursor: pointer;
-  margin-left: 40px;
-  margin-top: 13px;
+  margin: 13px 0 0 40px;
 }
 .nav-item a {
   color: var(--gray);
-  text-decoration: none;
-  font-size: 17px;
-  transition: color 0.2s;
   font-family: Verdana, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  transition: color 0.2s;
 }
 .nav-item a:hover {
   color: var(--light-gray);
-  text-decoration: none;
 }
 .nav-item img {
   padding-bottom: 6px;

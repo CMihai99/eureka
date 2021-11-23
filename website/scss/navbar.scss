@@ -16,8 +16,7 @@ nav {
   width: 100%;
   border: 0;
   margin: 0;
-  padding: 25px;
-  padding-left: 40px;
+  padding: 25px 25px 25px 40px; // top, right, bottom, left
 }
 
 .nav-icon {
@@ -26,22 +25,19 @@ nav {
 }
 
 .nav-item {
-  color: var(--gray);
   cursor: pointer;
-  margin-left: 40px;
-  margin-top: 13px;
+  margin: 13px 0 0 40px; // top, right, bottom, left
 
   a {
     color: var(--gray);
-    text-decoration: none;
-    font-size: 17px;
-    transition: color 0.2s;
     font-family: Verdana, sans-serif;
-  }
-
-  a:hover {
-    color: var(--light-gray);
+    font-size: 17px;
     text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--light-gray);
+    }
   }
 
   img {

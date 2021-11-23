@@ -6,20 +6,14 @@
 // ===-----------------------------------------------------------------------------------===
 
 :root {
-  --background: #2c2f33;
   --divider: #dbdbdb;
-  --text: #5c5c5c;
-  --body-background: #2c2f33;
-  --links: #337ff0;
-  --borders: #858585;
-  --border-radius: 10px;
+  --text: #fafafa;
 
-  scrollbar-width: thin;
   box-sizing: border-box;
 }
 
 body {
-  background-color: var(--body-background);
+  background-color: #2c2f33;
   overflow-x: hidden;
 }
 
@@ -32,44 +26,16 @@ h6,
 li,
 p {
   color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-strong {
-  color: #707070;
-  font-family: "Segoe UI", sans-serif;
-  font-weight: 600;
-}
-
-.links {
-  color: var(--links);
-  text-decoration: none;
-
-  &:hover,
-  &:active,
-  &:focus {
-    color: #3277df;
-  }
-
-  &:visited {
-    color: #145dca;
-  }
+  font-family: Verdana, sans-serif;
 }
 
 .page-border {
-  padding-top: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 125px;
-  margin-left: 125px;
+  padding: 30px 15px 0 15px; // top, right, bottom, left
+  margin: 0 125px; // top-bottom, left-right
 }
 
 .content-border {
   padding: 100px;
-}
-
-.page-title {
-  margin: 0;
 }
 
 // Phones

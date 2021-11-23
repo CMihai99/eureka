@@ -1,12 +1,11 @@
 :root {
-  --background: #232629;
   --text: #fafafa;
   --light-gray: #c5c5c5;
   --gray: #aaaaaa;
 }
 
 footer {
-  background-color: var(--background);
+  background-color: #232629;
   display: flex;
   padding: 30px;
   height: 200px;
