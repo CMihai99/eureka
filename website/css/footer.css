@@ -40,6 +40,12 @@ footer {
   margin: 0;
   font-family: Verdana, sans-serif;
 }
+.section p a,
+.title-section p a {
+  color: var(--light-gray);
+  text-decoration: none;
+  transition: color 0.2s;
+}
 .section ul,
 .title-section ul {
   padding: 0;

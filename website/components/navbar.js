@@ -13,7 +13,9 @@ class navbar extends HTMLElement {
     `
     <nav class="navbar">
       <div class="navbar-header">
-      <a href="index.html"><img src="/website/resources/icon.svg" class="nav-icon"></a>
+        <a href="index.html">
+          <img src="/website/resources/icon.svg" class="nav-icon">
+        </a>
       </div>
 
       <div class="nav navbar-nav">
@@ -28,7 +30,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/docs.html">
+            <a href="/website/html/resources/docs.html">
               <img src="/website/resources/documentation.svg">
               Documentation
             </a>

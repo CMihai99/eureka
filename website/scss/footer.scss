@@ -45,6 +45,12 @@ footer {
     font-size: 15px;
     margin: 0;
     font-family: Verdana, sans-serif;
+
+    a {
+      color: var(--light-gray);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
   }
 
   ul {

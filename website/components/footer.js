@@ -15,7 +15,7 @@ class footer extends HTMLElement {
       <div class="title-section">
         <h2>Eureka</h2>
         <p>The best free multi-purpose Discord bot.</p>
-        <p>© 2021 Eureka Limited</p>
+        <p>© 2021 <a href="/website/html/trademark.html">Eureka Limited</a></p>
         <p>by Calinescu Mihai</p>
       </div>
 
@@ -37,10 +37,10 @@ class footer extends HTMLElement {
 
         <ul>
           <li>
-            <a href="/website/html/contact.html">Contact</a>
+            <a href="/website/html/resources/contact.html">Contact</a>
           </li>
           <li>
-            <a href="/website/html/partners.html">Partners</a>
+            <a href="/website/html/resources/docs.html">Documentation</a>
           </li>
         </ul>
       </div>
@@ -50,10 +50,10 @@ class footer extends HTMLElement {
 
         <ul>
           <li>
-            <a href="/website/html/tos.html">Terms of Service</a>
+            <a href="/website/html/legal/tos.html">Terms of Service</a>
           </li>
           <li>
-            <a href="/website/html/privacy.html">Privacy Policy</a>
+            <a href="/website/html/legal/privacy.html">Privacy Policy</a>
           </li>
         </ul>
       </div>
