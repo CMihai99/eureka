@@ -46,6 +46,18 @@ class navbar extends HTMLElement {
           </div>
         </li>
       </div>
+
+      <div class="rightside-navbar">
+        <div class="nav navbar-nav">
+          <li>
+            <div class="nav-item">
+              <a href="https://github.com/CMihai99/eureka" target="_blank">
+                <img src="/website/resources/github.svg">
+              </a>
+            </div>
+          </li>
+        </div>
+      </div>
     </nav>
     `;
   }
