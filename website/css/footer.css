@@ -21,7 +21,6 @@ footer {
 }
 .section h3,
 .title-section h3 {
-  color: var(--text);
   font-size: 16px;
   margin-bottom: 8px;
   margin-top: 5px;
@@ -35,7 +34,6 @@ footer {
 }
 .section p,
 .title-section p {
-  color: var(--text);
   font-size: 15px;
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -45,6 +43,7 @@ footer {
   color: var(--light-gray);
   text-decoration: none;
   transition: color 0.2s;
+  padding: 2px;
 }
 .section ul,
 .title-section ul {
@@ -61,9 +60,11 @@ footer {
   text-decoration: none;
   font-size: 14px;
   transition: color 0.2s;
+  padding: 2px;
 }
-.section ul li a:hover,
-.title-section ul li a:hover {
+.section ul li a:hover, .section ul li a:focus,
+.title-section ul li a:hover,
+.title-section ul li a:focus {
   color: var(--gray);
 }
 

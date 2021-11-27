@@ -34,17 +34,20 @@ nav.navbar {
     font-size: 17px;
     text-decoration: none;
     transition: color 0.2s;
+    padding: 10px;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--light-gray);
     }
 
     img {
       filter: invert(62%) sepia(44%) saturate(0%) hue-rotate(146deg) brightness(102%) contrast(84%);;
-      padding-bottom: 6px;
-      height: 24px;
+      margin-bottom: 6px;
+      height: 17px;
   
-      &:hover {
+      &:hover,
+      &:focus {
         filter: invert(89%) sepia(0%) saturate(43%) hue-rotate(205deg) brightness(104%) contrast(70%);
       }
     }
