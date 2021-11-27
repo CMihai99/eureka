@@ -13,7 +13,7 @@ class navbar extends HTMLElement {
     `
     <nav class="navbar">
       <div class="navbar-header">
-        <a href="index.html">
+        <a href="index.html" title="Home">
           <img src="/website/resources/icon.svg" class="nav-icon">
         </a>
       </div>
@@ -21,7 +21,7 @@ class navbar extends HTMLElement {
       <div class="nav navbar-nav">
         <li>
           <div class="nav-item">
-            <a href="/website/html/commands.html">
+            <a href="/website/html/commands.html" title="Commands">
               <img src="/website/resources/commands.svg">
               Commands
             </a>
@@ -30,7 +30,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/resources/docs.html">
+            <a href="/website/html/resources/docs.html" title="Documentation">
               <img src="/website/resources/documentation.svg">
               Documentation
             </a>
@@ -39,7 +39,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/support.html">
+            <a href="/website/html/support.html" title="Community Server" target="_blank">
               <img src="/website/resources/discord.svg">
               Community Server
             </a>
@@ -51,7 +51,7 @@ class navbar extends HTMLElement {
         <div class="nav navbar-nav">
           <li>
             <div class="nav-item">
-              <a href="https://github.com/CMihai99/eureka" target="_blank">
+              <a href="https://github.com/CMihai99/eureka" title="Github" target="_blank">
                 <img src="/website/resources/github.svg">
               </a>
             </div>
